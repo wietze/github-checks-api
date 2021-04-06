@@ -94,3 +94,4 @@ class GitHubChecks():
         if date_type == 'UNIX':
             return time.time()
         raise Exception('Invalid date type')
+        
